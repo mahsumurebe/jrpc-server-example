@@ -1,0 +1,16 @@
+{
+  "name": "jrpc-server-example",
+  "version": "1.0.0",
+  "description": "JSON-RPC Server Example",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/"
+  },
+  "keywords": [],
+  "author": "Mahsum UREBE <info@mahsumurebe.com>",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@mahsumurebe/jrpc-server": "^1.0.4"
+  }
+}
